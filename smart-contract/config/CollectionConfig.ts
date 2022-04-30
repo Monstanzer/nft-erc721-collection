@@ -26,7 +26,7 @@ const CollectionConfig: CollectionConfigInterface = {
     price: 10,
     maxMintAmountPerTx: 5,
   },
-  contractAddress: 0x5bCaAA9D985CF76738F42b8e400Bec741c433d7D,
+  contractAddress: null,
   marketplaceIdentifier: 'Stag-Gaming-Club',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses: whitelistAddresses,
