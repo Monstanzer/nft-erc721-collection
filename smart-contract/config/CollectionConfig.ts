@@ -10,24 +10,24 @@ const CollectionConfig: CollectionConfigInterface = {
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
   contractName: 'YourNftToken',
-  tokenName: 'My NFT Token',
-  tokenSymbol: 'MNT',
+  tokenName: 'Stag Gaming Club',
+  tokenSymbol: 'STAG',
   hiddenMetadataUri: 'ipfs://__CID__/hidden.json',
   maxSupply: 10000,
   whitelistSale: {
-    price: 0.05,
-    maxMintAmountPerTx: 1,
-  },
-  preSale: {
-    price: 0.07,
+    price: 10,
     maxMintAmountPerTx: 2,
   },
+  preSale: {
+    price: 0,
+    maxMintAmountPerTx: 1000,
+  },
   publicSale: {
-    price: 0.09,
+    price: 10,
     maxMintAmountPerTx: 5,
   },
   contractAddress: null,
-  marketplaceIdentifier: 'my-nft-token',
+  marketplaceIdentifier: 'Stag-Gaming-Club',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses: whitelistAddresses,
 };
