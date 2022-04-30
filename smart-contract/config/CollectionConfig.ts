@@ -4,15 +4,15 @@ import * as Marketplaces from '../lib/Marketplaces';
 import whitelistAddresses from './whitelist.json';
 
 const CollectionConfig: CollectionConfigInterface = {
-  testnet: Networks.ethereumTestnet,
-  mainnet: Networks.ethereumMainnet,
+  testnet: Networks.polygonTestnet,
+  mainnet: Networks.polygonMainnet,
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
   contractName: 'YourNftToken',
   tokenName: 'Stag Gaming Club',
   tokenSymbol: 'STAG',
-  hiddenMetadataUri: 'ipfs://__CID__/hidden.json',
+  hiddenMetadataUri: 'ipfs://QmaUuhvrrrJ8oBpqyubm5eEoZv8zfm4nFFcRdDyXBkucjr/hidden.json',
   maxSupply: 10000,
   whitelistSale: {
     price: 10,
